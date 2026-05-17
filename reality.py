@@ -13,7 +13,7 @@ try:
 
     birth_datetime = datetime.strptime(f"{birthday} {birthtime}", "%Y-%m-%d %H:%M:%S")
     birth_timestamp = birth_datetime.timestamp()
-    print(f"{'CURRENT CLOCK':<12} | {'TOTAL ELAPSED SECONDS':<22} | {'FINAL ANSWER (Elapsed * 0.15)'}")
+    print(f"{'CURRENT CLOCK':<12} | {'TOTAL ELAPSED SECONDS':<22} | {'Experience (Elapsed / 0.15)'}")
 
 
     tick_counter = 0
